@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.20a1550e.css",
+    "main.js": "/portfolio/static/js/main.4abcd554.js",
+    "static/media/sassLogo.png": "/portfolio/static/media/sassLogo.7cdbf6b5889c42b3e490.png",
+    "static/media/CSSlogo.png": "/portfolio/static/media/CSSlogo.00a872a89b6592ae66e4.png",
+    "static/media/js.png": "/portfolio/static/media/js.266bd9fb2663dcc057b4.png",
+    "index.html": "/portfolio/index.html",
+    "main.20a1550e.css.map": "/portfolio/static/css/main.20a1550e.css.map",
+    "main.4abcd554.js.map": "/portfolio/static/js/main.4abcd554.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20a1550e.css",
+    "static/js/main.4abcd554.js"
+  ]
+}
