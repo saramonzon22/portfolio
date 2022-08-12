@@ -87,8 +87,8 @@ h3 {
 }
 .pj-card {
   display: flex;
-  justify-content: end;
-  margin: 15px;
+  justify-content: flex-end;
+  margin: 25px;
   text-shadow: #58A4B0 4px 3px 2px;
     
 }

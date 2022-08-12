@@ -33,7 +33,7 @@ function App() {
               <span className='letritas'>A</span>
               <span className='letritas'>R</span>
               <span className='letritas'>D</span></h2>
-            <h3 className='skills'>skills</h3>
+            <h3 className='skills'>class</h3>
             <div className='parrafito'><img src={logoHTML} alt='logoHTML5' className='HTML-Logo'></img>
               <img src={logoCSS} alt='logoCSS' className='cssLogo'></img><img src={skill} alt='skill' className='html-skill'></img></div>
             <div className='parrafito'>
