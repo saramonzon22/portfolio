@@ -12,13 +12,13 @@ function App() {
   return (
     <body><header className='header'>
       <div className='logo'></div>
-      <nav><ul className='nav-bar'><li class='home'><a href='#'>home</a></li>
-        <li className='who'><a href='#'>who</a></li>
-        <li className='projects'><a href='#'>projects</a></li>
+      <nav><ul className='nav-bar'><li class='home'><a href='#home'>home</a></li>
+        <li className='who'><a href='#who'>who</a></li>
+        <li className='projects'><a href='#projects'>projects</a></li>
         <li className='networks'><a href='#'>rrss</a></li></ul></nav>
     </header>
       <main className='body-page'>
-        <section className='text-div'>
+        <section className='text-div' id='home'>
           <div className='description'>
             <h1 className='title1'>Hi there!</h1>
             <h2>My name is Sara Monzón</h2>
@@ -49,9 +49,13 @@ function App() {
           </section>
         </section>
         <section className='who-section'>
-          <div className='separador'>who</div>
+          <div className='separador'><p className='who-p' id='who'>who</p></div>
           <div className='avatar'></div>
-          <div className='introduction'><p>Hi! Nice to see you again! For those who wanted to know more about me I made this space. Currently I'm living at Canary Islands, I have History degree and I recently studied at <span><a href='https://adalab.es/'>Adalab</a></span> to become a Front End developer! </p></div>
+          <div className='introduction'><p>Hi! Nice to see you again! For those who wanted to know more about me I made this space. Currently I'm living at Canary Islands, I have History degree and I recently studied at <span><a href='https://adalab.es/'>Adalab </a></span> to become a Front End developer! </p>
+            <p>On this page you can see the projects I have done. I will update it when I make new projects and will leave its links to github so you can try them. </p></div>
+        </section>
+        <section className='who-section'>
+          <div className='separador'><p className='who-p' id='projects'>projects</p></div>
         </section>
       </main>
     </body >
