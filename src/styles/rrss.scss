@@ -13,8 +13,8 @@
     transform: rotate(90deg);
 }
 .twitter {
-    width: 15vw;
-    height: 5vh;
+    width: 250px;
+    height: 50px;
     background-color: #00acee;
     color: white;
     display: flex;
@@ -23,10 +23,15 @@
     border-radius: 25px;
     font-family: 'Open Sans', 'Helvetica Neue';
     box-shadow: 0px 10px 10px -6px black;
+    @media all and (min-width: 768px) {
+        width: 15vw;
+        height: 5vh;
+        
+          }
 }
 .linkedin {
-    width: 15vw;
-    height: 5vh;
+    width: 250px;
+    height: 50px;
     background-color: #0e76a8;
     color: white;
     display: flex;
@@ -35,10 +40,15 @@
     border-radius: 25px;
     font-family: 'Open Sans', 'Helvetica Neue';
     box-shadow: 0px 10px 10px -6px black;
+    @media all and (min-width: 768px) {
+        width: 15vw;
+        height: 5vh;
+        
+          }
 }
 .Github {
-    width: 15vw;
-    height: 5vh;
+    width: 250px;
+    height: 50px;
     background-color: #171515 ;
     color: white;
     display: flex;
@@ -47,4 +57,11 @@
     border-radius: 25px;
     font-family: 'Open Sans', 'Helvetica Neue';
     box-shadow: 0px 10px 10px -6px #363030;
+
+    @media all and (min-width: 768px) {
+    width: 15vw;
+    height: 5vh;
+    
+      }
+    
 }

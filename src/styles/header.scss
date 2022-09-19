@@ -13,10 +13,17 @@
     height: 100px;
     background-position: center;
     background-repeat: no-repeat;
-    margin-left: 25px;
+    
+    @media all and (min-width: 768px) {
+      margin-left: 25px;
+    }
   }
   .nav-header{
-    width: 60vw;
+    width: 70vw;
+    @media all and (min-width: 768px) {
+      width: 60vw;
+  }
+    
   }
   .nav-bar {
     display: flex;
