@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "./static/css/main.81df07c4.css",
-    "main.js": "./static/js/main.e489309e.js",
+    "main.css": "./static/css/main.639dbc49.css",
+    "main.js": "./static/js/main.d1fda606.js",
     "static/media/Avatar.jpeg": "./static/media/Avatar.6dba61eb8ed971d63c4b.jpeg",
+    "static/media/sqlite.png": "./static/media/sqlite.f05a612d02f52a49bcfe.png",
+    "static/media/slack.png": "./static/media/slack.e6295f65b408f0f6e505.png",
     "static/media/sassLogo.png": "./static/media/sassLogo.7cdbf6b5889c42b3e490.png",
-    "static/media/CSSlogo.png": "./static/media/CSSlogo.a4b500ec9394bbd9b14e.png",
+    "static/media/CSSlogo.png": "./static/media/CSSlogo.8a3300bdc96846d48c08.png",
+    "static/media/node.png": "./static/media/node.c2e22c634a7336cbe298.png",
     "static/media/screamteam.JPG": "./static/media/screamteam.b14166cde0af1450fee9.JPG",
+    "static/media/zeppling.png": "./static/media/zeppling.5f0972f3121666da7998.png",
     "static/media/diversitech.JPG": "./static/media/diversitech.412db06c03777df11be7.JPG",
+    "static/media/react.png": "./static/media/react.c2a6ac864c4ccb52e12e.png",
     "static/media/javanime.JPG": "./static/media/javanime.d5b94cd97505867e3ddf.JPG",
     "static/media/openspaces.JPG": "./static/media/openspaces.9e81ef4eb1966fd61e8c.JPG",
     "static/media/js.png": "./static/media/js.266bd9fb2663dcc057b4.png",
     "static/media/adivina.JPG": "./static/media/adivina.aee1b3e569eb0e953786.JPG",
     "static/media/hp.JPG": "./static/media/hp.ba7e5f8365d2ee2f67d7.JPG",
     "index.html": "./index.html",
-    "main.81df07c4.css.map": "./static/css/main.81df07c4.css.map",
-    "main.e489309e.js.map": "./static/js/main.e489309e.js.map"
+    "main.639dbc49.css.map": "./static/css/main.639dbc49.css.map",
+    "main.d1fda606.js.map": "./static/js/main.d1fda606.js.map"
   },
   "entrypoints": [
-    "static/css/main.81df07c4.css",
-    "static/js/main.e489309e.js"
+    "static/css/main.639dbc49.css",
+    "static/js/main.d1fda606.js"
   ]
 }
