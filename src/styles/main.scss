@@ -1,0 +1,109 @@
+.body-page {
+    width: 100%;
+    background-color: #373F51;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .title1 {
+    color: #A9BCD0;
+    font-family: 'Josefin Sans', sans-serif;
+    grid-row: 2;
+    font-size: 60px;
+    text-shadow: white 5px 3px 2px;
+    
+  }
+  .text-div {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    margin-left: 100px;
+    color: #A9BCD0;
+    font-family: 'Josefin Sans', sans-serif;
+    justify-content: space-evenly;
+    align-items: center;
+    @media all and (min-width: 768px) {
+      display: flex;
+      flex-direction: row;
+  }
+  
+  }
+  h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  .card {
+    width: 600px;
+    height: 350px;
+    border: solid black 1px;
+    background-color: #A9BCD0;
+    box-shadow: black 10px 8px 2px;
+    color: #1B1B1E;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    transform: rotate(15deg);
+    border-radius: 25px;
+    
+  }
+  .pj-card {
+    display: flex;
+    justify-content: flex-end;
+    margin: 25px;
+    text-shadow: #58A4B0 4px 3px 2px;
+      
+  }
+  
+  .skills {
+    margin-left: 15px;
+  }
+.container {
+    display: grid;
+    height: 250px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+}
+.css {
+    margin-left: 15px;
+    width: 40px;
+    height: 40px;
+}
+.html{
+    width: 40px;
+    height: 40px;
+}
+.js {
+    width: 40px;
+    height: 40px;
+}
+.sass {
+    width: 50px;
+    height: 40px;
+}
+.react {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.git {
+    width: 50px;
+    height: 50px;
+}
+.sql {
+    width: 50px;
+    height: 40px;
+}
+.node {
+    width: 50px;
+    height: 40px;
+}
+.slack {
+    width: 40px;
+    height: 40px;
+}
+.zeplin {
+    width: 40px;
+    height: 40px;
+}

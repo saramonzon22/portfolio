@@ -10,10 +10,19 @@
 }
 .equip {
    display: flex;
+   flex-direction: column;
    gap: 25px;
    border: #099d8d solid 1px;
    border-radius: 25px;
    padding: 15px;
+   @media all and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    border: #099d8d solid 1px;
+    border-radius: 25px;
+    padding: 15px;
+}
 }
 .card1{
     width: 200px;
@@ -23,6 +32,15 @@
     justify-content: center;
     align-items: center;
     border-radius: 15px;
+    opacity: 0.3;
+    transition-property: opacity;
+    transition-duration: 0.8s;
+    transition-timing-function: ease;
+    transition-delay: 0.2s;
+}
+.card1:hover {
+    opacity: 1;
+      
 }
 .parraf {
     color: white;
@@ -37,6 +55,15 @@
     background-position: center;
     background-size: cover;
     border-radius: 15px;
+    opacity: 0.3;
+    transition-property: opacity;
+    transition-duration: 0.8s;
+    transition-timing-function: ease;
+    transition-delay: 0.2s;
+}
+.card2:hover {
+    opacity: 1;
+      
 }
 .card3{
     width: 200px;
@@ -45,13 +72,32 @@
     background-position: center;
     background-size: cover;
     border-radius: 15px;
+    opacity: 0.3;
+    transition-property: opacity;
+    transition-duration: 0.8s;
+    transition-timing-function: ease;
+    transition-delay: 0.2s;
+   
+}
+.card3:hover {
+    opacity: 1;
+      
 }
 .personal {
     display: flex;
+    flex-direction: column;
     gap: 25px;
     border: #099d8d solid 1px;
     border-radius: 25px;
     padding: 15px;
+@media all and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    border: #099d8d solid 1px;
+    border-radius: 25px;
+    padding: 15px;
+}
 }
 .card4 {
     width: 200px;
@@ -60,6 +106,15 @@
     background-position: center;
     background-size: cover;
     border-radius: 15px;
+    opacity: 0.3;
+    transition-property: opacity;
+    transition-duration: 0.8s;
+    transition-timing-function: ease;
+    transition-delay: 0.2s;
+   
+}
+.card4:hover {
+    opacity: 1;
 }
 .card5 {
     width: 200px;
@@ -68,6 +123,14 @@
     background-position: center;
     background-size: contain;
     border-radius: 15px;
+    opacity: 0.3;
+    transition-property: opacity;
+    transition-duration: 0.8s;
+    transition-timing-function: ease;
+    transition-delay: 0.2s;
+}
+.card5:hover {
+    opacity: 1;
 }
 .card6 {
     width: 200px;
@@ -76,12 +139,33 @@
     background-position: center;
     background-size: contain;
     border-radius: 15px;
+    opacity: 0.3;
+    transition-property: opacity;
+    transition-duration: 0.8s;
+    transition-timing-function: ease;
+    transition-delay: 0.2s;
+}
+.card6:hover {
+    opacity: 1;
 }
 .card7 {
     width: 200px;
     height: 200px;
     background-image: url(../images/adivina.JPG);
-    background-position: center;
     background-size: contain;
     border-radius: 15px;
+    opacity: 0.3;
+    transition-property: opacity;
+    transition-duration: 0.8s;
+    transition-timing-function: ease;
+    transition-delay: 0.2s;
+}
+.card7:hover {
+    opacity: 1;
+}
+.description {
+    text-align: center;
+    padding: 10px;
+    width: 20ch;
+    font-family: 'Open Sans', 'Helvetica Neue';
 }

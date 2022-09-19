@@ -1,0 +1,66 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100%;
+    align-items: center;
+    background-color: #1B1B1E;
+  }
+  .logo {
+    background-image: url(../images/logo-png.png);
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 25px;
+  }
+  .nav-header{
+    width: 60vw;
+  }
+  .nav-bar {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    text-transform: uppercase;
+    justify-content: space-evenly;
+    font-family: 'Josefin Sans', sans-serif;
+    align-content: center;
+  }
+  .home {
+    padding-left: 2px;
+    padding-right: 2px;
+    @media all and (min-width: 768px) {
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+  }
+  
+  .who {
+    padding-left: 2px;
+    padding-right: 2px;
+    @media all and (min-width: 768px) {
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+  }
+  .projects {
+    padding-left: 2px;
+    padding-right: 2px;
+    @media all and (min-width: 768px) {
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+  }
+  .networks {
+    padding-left: 2px;
+    padding-right: 2px;
+    @media all and (min-width: 768px) {
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }

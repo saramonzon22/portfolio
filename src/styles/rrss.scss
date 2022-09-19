@@ -1,0 +1,50 @@
+.rrss {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.title3 {
+    color: white;
+    font-family: 'Open Sans', 'Helvetica Neue';
+    font-size: 24px;
+
+}
+.arrow {
+    transform: rotate(90deg);
+}
+.twitter {
+    width: 15vw;
+    height: 5vh;
+    background-color: #00acee;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 25px;
+    font-family: 'Open Sans', 'Helvetica Neue';
+    box-shadow: 0px 10px 10px -6px black;
+}
+.linkedin {
+    width: 15vw;
+    height: 5vh;
+    background-color: #0e76a8;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 25px;
+    font-family: 'Open Sans', 'Helvetica Neue';
+    box-shadow: 0px 10px 10px -6px black;
+}
+.Github {
+    width: 15vw;
+    height: 5vh;
+    background-color: #171515 ;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 25px;
+    font-family: 'Open Sans', 'Helvetica Neue';
+    box-shadow: 0px 10px 10px -6px #363030;
+}
