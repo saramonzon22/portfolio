@@ -169,3 +169,39 @@
     width: 20ch;
     font-family: 'Open Sans', 'Helvetica Neue';
 }
+.card8 {
+    width: 200px;
+    height: 200px;
+    background-image: url(../images/rock-paper-scissors.JPG);
+    background-size: contain;
+    background-color: #D8BD8A;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    opacity: 0.3;
+    transition-property: opacity;
+    transition-duration: 0.8s;
+    transition-timing-function: ease;
+    transition-delay: 0.2s;
+}
+.card8:hover {
+    opacity: 1;
+}
+.card9 {
+    width: 200px;
+    height: 200px;
+    background-image: url(../images/figuras.JPG);
+    background-size: contain;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    opacity: 0.3;
+    transition-property: opacity;
+    transition-duration: 0.8s;
+    transition-timing-function: ease;
+    transition-delay: 0.2s;
+}
+.card9:hover {
+    opacity: 1;
+}

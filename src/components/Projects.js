@@ -15,6 +15,10 @@ function Projects(props) {
                 Harry Potter Character Page | React</p></a>
             <a href="https://saramonzon22.github.io/modulo-2-evaluacion-intermedia-saramonzon22/"><div className="card7"></div><p className='description'>
                 Web game to guess the number | JavaScript</p></a>
+            <a href="https://saramonzon22.github.io/Rock-paper-scissors/"><div className="card8"></div><p className='description'>
+                Web game: Rock, paper, scissors! | JavaScript</p></a>
+            <a href="https://saramonzon22.github.io/Figuras-geometricas/"><div className="card9"></div><p className='description'>
+                Web to help you with geometry | JavaScript</p></a>
         </section>
     </main>
 }
